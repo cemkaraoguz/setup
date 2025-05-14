@@ -1,0 +1,8 @@
+# some ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+venvactivate() {
+ source ~/venvs/$1/bin/activate  # commented out by conda initialize
+}
